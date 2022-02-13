@@ -3,7 +3,7 @@
 This is a collection of my notes during Launch School, Ruby Track. I have it broken down based on the course name with links to the various topics.  I currently am in RB109.
  **living document – constantly updating**
 
-## [🍄 RB100](🍄RB100-Ruby)
+## RB100
 
 - [basics](🍄RB100-Ruby/basics.md)
 - [variables](🍄RB100-Ruby/variables.md)
@@ -14,7 +14,7 @@ This is a collection of my notes during Launch School, Ruby Track. I have it bro
 - [methods](🍄RB100-Ruby/methods.md)
 - [more stuff](🍄RB100-Ruby/more_stuff.md)
 
-## [🚀RB101](🚀RB101-Programming-Foundations)
+## RB101
 
 - [lesson-2](🚀RB101-Programming-Foundations/Lesson_2)
 - [lesson_4](🚀RB101-Programming-Foundations/Lesson_4)
