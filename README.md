@@ -5,5 +5,5 @@
 
 ## RB100
 
-- [basics](🥑 RB100-Ruby/basics.md)
-- [arrays](🥑 RB100-Ruby)
+- [basics](RB100-Ruby/basics.md)
+- [arrays](RB100-Ruby)
