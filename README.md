@@ -7,3 +7,9 @@
 
 - [basics](RB100-Ruby/basics.md)
 - [arrays](RB100-Ruby)
+
+
+
+## RB101
+
+- [lesson-2](🚀RB101-Programming-Foundations/Lesson_2)
