@@ -24,3 +24,4 @@ This is a collection of my notes during Launch School, Ruby Track. I have it bro
 
 ## Cheatsheets
 
+[Ruby](./cheatsheets/ruby-review.md)
