@@ -2,10 +2,8 @@
 
 ## Practice Problem 1
 
-<aside>
-💡 What is the return value of the `select` method below? Why?
 
-</aside>
+💡 What is the return value of the `select` method below? Why?
 
 ```ruby
 [1, 2, 3].select do |num|
@@ -22,10 +20,8 @@ end
 
 ## Practice Problem 2
 
-<aside>
-💡 How does `count` treat the block’s return value? How can we find out?
 
-</aside>
+💡 How does `count` treat the block’s return value? How can we find out?
 
 ```ruby
 ['ant', 'bat', 'caterpillar'].count do |str|
@@ -36,14 +32,12 @@ end
 
 If the block returns a `true` value for the current element, the `count` method will count that element. `count` considers the truthiness of the block’s return value and returns an integer value
 
-`count` counts the number of elements for which the block returns a `true` value
+- `count` counts the number of elements for which the block returns a `true` value
 
 ## Practice Problem 3
 
-<aside>
-💡 What is the return value of `reject` in the following code? Why?
 
-</aside>
+💡 What is the return value of `reject` in the following code? Why?
 
 ```ruby
 [1, 2, 3].reject do |num|
@@ -59,10 +53,11 @@ end
 
 ## Practice Problem 4
 
-<aside>
+
 💡 What is the return value of `each_with_object` in the following code? Why?
 
-</aside>
+
+
 
 ```ruby
 ['ant', 'bear', 'cat'].each_with_object({}) do |value, hash|
@@ -79,10 +74,11 @@ end
 
 ## Practice Problem 5
 
-<aside>
+
 💡 What does `shift` do in the following code? How can we find out?
 
-</aside>
+
+
 
 ```ruby
 hash = { a: 'ant', b: 'bear' }
@@ -98,10 +94,11 @@ hash # => { b: 'bear' }
 
 ## Practice Problem 6
 
-<aside>
+
 💡 What is the return value of the following statement? Why?
 
-</aside>
+
+
 
 ```ruby
 ['ant', 'bear', 'caterpillar'].pop.size # => 11
@@ -116,10 +113,11 @@ hash # => { b: 'bear' }
 
 ## Practice Problem 7
 
-<aside>
+
 💡 What is the **block’s** return value in the following code? How is it determined? Also what is the return value of `any?` ? What is the code output
 
-</aside>
+
+
 
 ```ruby
 [1, 2, 3].any? do |num|
@@ -142,10 +140,11 @@ After the first iteration `any?` returns `true` and stops iterating since there 
 
 ## Practice Problem 8
 
-<aside>
+
 💡 How does `take` word? Is it destructive?
 
-</aside>
+
+
 
 Returns the first number of elements from the array based on the integer argument. Will need to test in `irb` to see if it is a destructive method 
 

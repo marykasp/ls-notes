@@ -90,10 +90,11 @@ end
 
 ### Transformation
 
-<aside>
+
 💡 **Example:** Multiply each element in the collection by 2
 
-</aside>
+
+
 
 ```ruby
 numbers = [2, 3, 4, 5]
@@ -118,10 +119,11 @@ end
 
 Transformations do not always have to be done to every element of the collection; they can also be performed on a subset of that collection
 
-<aside>
+
 💡 **Example**: only multiply 2 if the value is odd
 
-</aside>
+
+
 
 ```ruby
 numbers = [1, 2, 3, 4, 5, 6, 7]
@@ -146,10 +148,11 @@ end
 
 - What if we wanted to transform the numbers based on their position in the array rather than their value
 
-<aside>
+
 💡 **Example:** only multiply by 2 if the value index is odd
 
-</aside>
+
+
 
 ```ruby
 def double_odd_indices(numbers)
@@ -159,7 +162,7 @@ def double_odd_indices(numbers)
 	loop do
 		break if counter == numbers.size
 
-		current_num == numbers[counter]
+		current_num = numbers[counter]
 		current_num *= 2 if counter.odd?
 		doubled_numbers << current_num
 
@@ -168,14 +171,19 @@ def double_odd_indices(numbers)
 	
 	doubled_numbers
 end
+
+doubled_nums = numbers.map do |num| # returns a new array of modified odd numbers
+  num *= 2 if num.odd?
+end
 ```
 
 ## More Flexible Methods
 
-<aside>
+
 💡 Example: `select_fruit` method that selects a certain produce out of a `produce_list` hash. We now wish to write a more generic `general_select` so we can specify whether we are interested in selecting fruits or vegetables
 
-</aside>
+
+
 
 ```ruby
 produce = {
