@@ -819,7 +819,7 @@ numbers = [1, 2, 3, 4]
 strings = ["This", "is", "a", "sentence"]
 ```
 
-Both arrays have five elemetns separated by commas - the first array contains integers while the second contains strings. 
+Both arrays have five elements separated by commas - the first array contains integers while the second contains strings. 
 
 Arrays are commonly created with an **array literal** which is simply a special syntax used to create an instance of an array object. To create a new array using an array literal use square brackets `[]`
 
