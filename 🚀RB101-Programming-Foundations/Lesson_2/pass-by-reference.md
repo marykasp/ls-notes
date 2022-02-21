@@ -29,10 +29,8 @@ What happens to objects that are passed into methods?
 - not all operations affect the object the same
 - reassignment does not affect the original object, but methods like `.capitalize`! mutate the original object it is called on
 
-<aside>
-🐁 when an operation within the method mutates the caller, it will affect the original object
 
-</aside>
+🐁 **when an operation within the method mutates the caller, it will affect the original object**
 
 - some destructive methods end with a `!`
 

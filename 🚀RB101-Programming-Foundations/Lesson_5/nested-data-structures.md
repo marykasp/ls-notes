@@ -90,12 +90,17 @@ b = [2]
 arr = [a, b]
 arr # => [[1, 3], [2]]
 
+# element reassignment - changes the overall array
 a[1] = 5
 arr # => [[1, 5], [2]]
 a => [1, 5]
 ```
 
 The value of `arr` changed because `a` still points to the *same* `Array` object that’s in `arr.`
+
+`arr` variable references a multidimensional array - the objects that make up the collection are referenced by other variables. If any of the individual objects that make up the array are modified those changes will be reflected in the outer array. Since `a` and `b` reference the same array objects that are elements in the `arr` 2-D array then modifying those inner arrays will mutate the entire array. 
+
+-  **If one of the array objects inside the `arr`  is modified the change will also show in the `arr` array.** 
 
 Collection contains references to the individual objects that make up the collection 
 

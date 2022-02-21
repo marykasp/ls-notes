@@ -30,9 +30,9 @@ name = gets.chomp => "Bob"
 
 ## Types of Variables
 
-- Constants - declared by capitalizing every letter in variable name, used to store data that never needs to change in the program
-- global - declared starting variable name with `$` - available throughout the entire program, overriding all scope boundaries 
-- class - declared by starting variable name with `@@` - accessible by instances of your class as well as class itself
+- **Constants** - declared by capitalizing every letter in variable name, used to store data that never needs to change in the program
+- **global** - declared starting variable name with `$` - available throughout the entire program, overriding all scope boundaries 
+- **class** - declared by starting variable name with `@@` - accessible by instances of your class as well as class itself
   - used to declare a variable that is related to a class, but each instance does not need its own value
 - instance - declared with `@` - available throughout the current instance of the parent class 
 - Local - most common variable and obey all scope boundaries 

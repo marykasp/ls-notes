@@ -16,7 +16,9 @@ This is a collection of my notes during Launch School, Ruby Track. I have it bro
 
 ## RB101
 
-- [lesson-2](🚀RB101-Programming-Foundations/Lesson_2)
+- [Lesson 1](🚀RB101-Programming-Foundations/Lesson_1/notes.md)
+
+- [Lesson 2: Small Problems](🚀RB101-Programming-Foundations/Lesson_2/notes.md)
 - [lesson_4](🚀RB101-Programming-Foundations/Lesson_4)
 - [lesson_5](🚀RB101-Programming-Foundations/Lesson_5)
 

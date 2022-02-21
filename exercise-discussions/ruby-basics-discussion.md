@@ -8,11 +8,12 @@
 a = 7
 
 def my_value(b)
-  b += 10
+  return b += 10
 end
 
-my_value(a)
+b = my_value(a)
 puts a
+puts b
 ```
 
 This will print 7 to the screen. Inside the method definition there is a **reassignment** which does not mutate a variable, it binds the variable to a new object, in this case `b` will be bound to the integer object `10`. The object pointed to by `a` therefore remains unchanged so it is still equal to `7` 

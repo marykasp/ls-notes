@@ -21,7 +21,7 @@ person.merge!(new_hash) # modifies the caller
 
 ## Iterating Over Hashes
 
-- `each` meethod but assign a variable to both the key and the value
+- `each` method but assign a variable to both the key and the value
 
 - `empty?` method that detects whether a hash has anything in it
 
